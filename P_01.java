@@ -1,8 +1,5 @@
 package euler;
 
-/**
- * Created by pari on 9/30/2016.
- */
 public class P_01 {
     public static void main(String[] args) {
 
