@@ -11,7 +11,7 @@ public class P_002 {
             temp = f1;
             f1 = f2;
             f2 = f2 + temp;
-            System.out.println(f2);
+            
             if (f2 % 2 == 0) {
                 sum += f2;
             }
