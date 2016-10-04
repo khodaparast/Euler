@@ -25,7 +25,7 @@ public class P_004 {
         }
         return mulValues;
     }
-//palind() take a number and if it is a palindrome return true.
+//palind(Long n) take a number and if it is a palindrome return true.
     static boolean palind(Long n) {
 
         char[] val = Long.toString(n).toCharArray();
@@ -40,7 +40,7 @@ public class P_004 {
         }
         return true;
     }
-//maxOfPalind() take a list and return max of it.
+//maxOfPalind(List<Long> l) take a list and return max of it.
 static Long maxOfPalind(List<Long> l){
     Long max=l.get(0);
     for(int i=1;i<l.size()-1;i++){
